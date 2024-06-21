@@ -26,7 +26,7 @@ const icon = computed(() =>
     <SearchBar />
     <div class="gap-x-5 hidden md:flex">
       <h1 class="text-[#2aa6cf] font-bold text-xl">IMAX</h1>
-      <NuxtImg src="../public/images/dolbyatmos.png" width="100" />
+      <NuxtImg src="/images/dolbyatmos.png" width="100" />
     </div>
     <Icon
       :icon="icon"

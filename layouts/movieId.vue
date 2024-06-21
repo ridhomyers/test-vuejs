@@ -1,9 +1,9 @@
 <template>
-  <body class="w-full h-full relative">
+  <div class="w-full h-full relative">
     <Navbar />
     <slot />
     <Footer />
-  </body>
+  </div>
 </template>
 
 <style>

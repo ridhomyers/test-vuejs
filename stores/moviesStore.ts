@@ -3,7 +3,7 @@ import axios from "axios";
 import { ref, computed } from "vue";
 import type { MovieTypes } from "@/types";
 
-const apiUrl = `https://www.omdbapi.com/?i=tt3896198&apikey=${process.env.API_KEY_MOVIE}`;
+const apiUrl = "https://www.omdbapi.com/?i=tt3896198&apikey=8eb7dbbe";
 
 export const useMoviesStore = defineStore("movies", () => {
   const movies = ref<MovieTypes[]>([]);
